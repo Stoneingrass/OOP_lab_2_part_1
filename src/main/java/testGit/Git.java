@@ -38,4 +38,8 @@ public class Git {
     public void showInfo() {
         System.out.printf("%d, %s, %f", version, info, infoCode);
     }
+
+    public void showHello(String name) {
+        System.out.println("Hello, " + name);
+    }
 }
